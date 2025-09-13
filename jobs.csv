@@ -1,0 +1,105 @@
+job_keywords = {
+    "software engineer": [
+        "python", "java", "c++", "c#", "javascript", "typescript", "ruby", "go",
+        "development", "api", "rest", "graphql", "backend", "frontend", "full stack",
+        "django", "flask", "spring", "node.js", "react", "angular", "vue", "git",
+        "docker", "kubernetes", "aws", "azure", "gcp", "sql", "nosql", "testing", "unit test"
+    ],
+    "data analyst": [
+        "excel", "sql", "visualization", "powerbi", "tableau", "data cleaning", 
+        "data analysis", "statistics", "python", "r", "pandas", "numpy", "matplotlib", 
+        "seaborn", "data wrangling", "reporting", "dashboards", "kpi", "business intelligence"
+    ],
+    "project manager": [
+        "planning", "execution", "team", "milestone", "agile", "scrum", "kanban",
+        "risk management", "budgeting", "stakeholder", "scheduling", "jira", 
+        "confluence", "communication", "leadership", "resource allocation", 
+        "project lifecycle", "delivery", "roadmap"
+    ],
+    "digital marketer": [
+        "seo", "content", "social media", "ads", "sem", "ppc", "google analytics", 
+        "email marketing", "marketing strategy", "campaign", "branding", "facebook ads",
+        "instagram", "linkedin", "twitter", "content creation", "copywriting", 
+        "influencer marketing", "keyword research", "conversion rate", "crm"
+    ],
+    "graphic designer": [
+        "photoshop", "illustrator", "creativity", "design", "ui", "ux", "adobe xd",
+        "figma", "sketch", "corel draw", "inDesign", "typography", "color theory",
+        "layout", "branding", "logo", "animation", "video editing", "canva", 
+        "prototyping", "wireframe"
+    ],
+    "machine learning engineer": [
+        "python", "tensorflow", "keras", "pytorch", "scikit-learn", "ml", "deep learning",
+        "nlp", "computer vision", "model training", "data preprocessing", "ai", 
+        "algorithms", "feature engineering", "statistics", "pandas", "numpy"
+    ],
+    "devops engineer": [
+        "docker", "kubernetes", "jenkins", "ci/cd", "aws", "azure", "gcp", "terraform",
+        "ansible", "monitoring", "linux", "bash", "scripting", "automation", 
+        "scaling", "infrastructure", "cloud", "git", "deployment"
+    ],
+    "content writer": [
+        "writing", "editing", "blog", "article", "copywriting", "seo", "creative",
+        "proofreading", "content strategy", "research", "storytelling", "social media",
+        "marketing", "branding", "technical writing", "newsletter", "website content"
+    ],
+    "human resources": [
+        "recruitment", "hr policies", "interviewing", "talent acquisition", "onboarding",
+        "employee engagement", "payroll", "training", "conflict resolution", 
+        "performance management", "hrms", "labor laws", "communication"
+    ],
+    "accountant": [
+        "accounting", "finance", "bookkeeping", "excel", "tax", "audit", "tally",
+        "financial statements", "budgeting", "reconciliation", "gst", "ledger", "payroll"
+    ],
+    "sales executive": [
+        "sales", "business development", "lead generation", "crm", "negotiation", 
+        "customer relationship", "closing deals", "target", "pipeline", "prospecting",
+        "communication", "presentation", "product knowledge", "strategy", "marketing"
+    ],
+    "ui/ux designer": [
+        "wireframing", "prototyping", "figma", "adobe xd", "user research", "persona",
+        "usability testing", "interaction design", "information architecture", 
+        "visual design", "mockups", "responsive design", "design systems", "css", "html"
+    ],
+    "qa engineer": [
+        "testing", "manual testing", "automation", "selenium", "cypress", "junit", 
+        "test cases", "bug tracking", "quality assurance", "regression testing", 
+        "performance testing", "api testing", "test plans", "jira", "git"
+    ],
+    "business analyst": [
+        "requirements gathering", "stakeholder management", "documentation", "uml", 
+        "process modeling", "data analysis", "sql", "excel", "gap analysis", 
+        "business strategy", "use case", "jira", "agile", "communication", "problem solving"
+    ],
+    "network engineer": [
+        "cisco", "routers", "switches", "firewall", "tcp/ip", "lan", "wan", "vpn",
+        "network security", "troubleshooting", "wireless", "network monitoring", 
+        "packet analysis", "dhcp", "dns", "subnetting"
+    ],
+    "cloud architect": [
+        "aws", "azure", "gcp", "cloud computing", "architecture", "scalability", 
+        "security", "devops", "microservices", "containers", "terraform", "ansible", 
+        "monitoring", "design patterns", "infrastructure as code"
+    ],
+    "cybersecurity analyst": [
+        "network security", "firewall", "penetration testing", "vulnerability assessment", 
+        "incident response", "siem", "encryption", "risk analysis", "compliance", 
+        "malware analysis", "python", "security policies", "ethical hacking"
+    ],
+    "mobile app developer": [
+        "android", "ios", "react native", "flutter", "swift", "kotlin", "java", 
+        "objective-c", "xcode", "android studio", "ui design", "api integration",
+        "mobile development", "firebase", "git"
+    ],
+    "full stack developer": [
+        "javascript", "python", "node.js", "react", "angular", "vue", "django", "flask",
+        "backend", "frontend", "sql", "nosql", "rest api", "graphql", "git", "docker", 
+        "cloud", "testing"
+    ],
+    "product manager": [
+        "roadmap", "strategy", "market research", "agile", "scrum", "stakeholders", 
+        "launch", "features", "user stories", "analytics", "prioritization", "communication",
+        "leadership", "product lifecycle"
+    ]
+}
