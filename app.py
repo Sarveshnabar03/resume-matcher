@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 import pdfplumber
 import os
-from transformers import pipeline
 import requests
 from dotenv import load_dotenv
 
@@ -13,9 +12,6 @@ ADZUNA_APP_KEY = os.getenv("ADZUNA_APP_KEY")
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
-
-# Load zero-shot classifier from Hugging Face
-classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 
 # Possible job roles
 job_roles = ["Software Engineer", "Data Analyst", "Project Manager", "Digital Marketer", "Graphic Designer"]
@@ -35,7 +31,7 @@ def upload():
         # Extract text
         text = extract_text(filepath)
 
-        # Classify text
+        # Classify text (simple placeholder)
         classified_roles = classify_resume(text)
 
         # Fetch real jobs from Adzuna API
@@ -63,9 +59,11 @@ def extract_text(filepath):
     return text
 
 def classify_resume(text):
-    candidate_labels = job_roles
-    output = classifier(text, candidate_labels)
-    roles = list(zip(output['labels'], output['scores']))
+    """
+    Simple placeholder classification:
+    Assign all predefined job roles with dummy score.
+    """
+    roles = [(role, 0.8) for role in job_roles]  # Score is dummy
     return roles
 
 def fetch_jobs_adzuna(job_title):
@@ -93,5 +91,5 @@ def fetch_jobs_adzuna(job_title):
     return jobs
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # ✅ Render dynamic port
+    port = int(os.environ.get("PORT", 5000))  # Render dynamic port
     app.run(host="0.0.0.0", port=port)
